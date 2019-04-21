@@ -42,8 +42,8 @@ The rest of this post will include: </br>
    4.**RelocNet** Continuous Metric Learning Relocalisation using Neural Nets
    They propose a method of learning suitable convolutional representations for camera pose retrieval based on nearest neighbour matching and continuous metric learning-based feature descriptors. It compares pair of images from the camera.
    It require parameters forom the  camera that being used.
-   [Paper] (http://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf)/ [Data] (http://relocnet.avlcode.org/dataset.html) / [Presnetation](http://relocnet.avlcode.org/docs/Balntas_2018_ECCV_presentation.pdf)/[Website](http://relocnet.avlcode.org/)
-   ![RelocNet](/assets/Images/Pose%20LSTM.png "PoseNet") </br>
+   [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf)/ [Data](http://relocnet.avlcode.org/dataset.html) / [Presnetation](http://relocnet.avlcode.org/docs/Balntas_2018_ECCV_presentation.pdf)/[Website](http://relocnet.avlcode.org/)
+   ![RelocNet](/assets/Images/relocnet.jpg) </br>
 
    
    5. Camera Relocalization by Computing Pairwise Relative Poses Using Convolutional Neural Networ
