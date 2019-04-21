@@ -24,8 +24,8 @@ The rest of this post will include: </br>
    [Paper](https://arxiv.org/pdf/1903.07504.pdf)
    
    1. **PoseNet**: A Convolutional Network for Real-Time 6-DOF Camera Relocalization [1]
-   They present a robust and real-time monocular six degree of freedom relocalization system. Our system trains a convolutional neural network to regress the 6-DOF camera pose from a single RGB image in an end-to-end manner with no need of additional engineering or graph optimisation. The algorithm can operate indoors and outdoors in real time, taking 5ms per frame to compute. It obtains approximately 2m and 3 degrees accuracy for large scale outdoor scenes and 0.5m and 5 degrees accuracy indoors. This is achieved using an efficient 23-layer deep convnet, demonstrating that convnets can be used to solve complicated out of image plane regression problems. This was made possible by leveraging transfer learning from large scale classification data. We show that the PoseNet localizes from high level features and is robust to difficult lighting, motion blur and different camera intrinsic where point based SIFT registration fails. Furthermore, we show how the pose feature that is produced generalizes to other scenes allowing us to regress pose with only a few dozen training examples. </br>
-   [Code](https://github.com/alexgkendall/caffe-posenet)/[Trained Model](http://mi.eng.cam.ac.uk/~agk34/resources/PoseNet.zip)/ Data (not available)/[Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf)/[Demo](http://mi.eng.cam.ac.uk/projects/relocalisation/)
+   They present a robust and real-time monocular six degree of freedom relocalization system. Our system trains a convolutional neural network to regress the 6-DOF camera pose from a single RGB image in an end-to-end manner with no need of additional engineering or graph optimisation. The algorithm can operate indoors and outdoors in real time, taking 5ms per frame to compute. It obtains approximately 2m and 3 degrees accuracy for large scale outdoor scenes and 0.5m and 5 degrees accuracy indoors. This is achieved using an efficient 23-layer deep convnet, demonstrating that convnets can be used to solve complicated out of image plane regression problems. This was made possible by leveraging transfer learning from large scale classification data. We show that the PoseNet localizes from high level features and is robust to difficult lighting, motion blur and different camera intrinsic where point based SIFT registration fails. Furthermore, we show how the pose feature that is produced generalizes to other scenes allowing us to regress pose with only a few dozen training examples.</br>
+   [Code](https://github.com/alexgkendall/caffe-posenet)/[Trained Model](http://mi.eng.cam.ac.uk/~agk34/resources/PoseNet.zip) / Data (not available)/ [Paper](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf)/[Demo](http://mi.eng.cam.ac.uk/projects/relocalisation/)
    <p align="center">
       <img src="/assets/Images/PoseNet.png" width="600" align="center">
    </p>
@@ -41,7 +41,7 @@ The rest of this post will include: </br>
    <p align="center">
       <img src="/assets/Images/Relative%20Camera%20Pose%20Estimation.png" width="600" align="center">
    </p>
-   4. **RelocNet** Continuous Metric Learning Relocalisation using Neural Nets
+   4. **RelocNet**: Continuous Metric Learning Relocalisation using Neural Nets
    They propose a method of learning suitable convolutional representations for camera pose retrieval based on nearest neighbour matching and continuous metric learning-based feature descriptors. It compares pair of images from the camera.
    It require parameters forom the  camera that being used.</br>
    [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf)/ [Data](http://relocnet.avlcode.org/dataset.html) / [Presnetation](http://relocnet.avlcode.org/docs/Balntas_2018_ECCV_presentation.pdf)/[Website](http://relocnet.avlcode.org/)
@@ -69,7 +69,9 @@ The rest of this post will include: </br>
    </p>
    2. **Adversarial PoseNet**: A Structure-aware Convolutional Network for Human Pose Estimation</br>
    No Code / No Data /[Paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Adversarial_PoseNet_A_ICCV_2017_paper.pdf)/ No Demo / No Video
-   ![Adversarial PoseNet](/assets/Images/AdversarialPoseNet.png "AdversarialPoseNet")
+   <p align="center">
+      <img src="/assets/Images/AdversarialPoseNet.png" width="600" align="center">
+   </p>
    3. **Adversarial Joint Image and Pose Distribution Learning for Camera Pose Regression and Refinement**
    No Code / No Data /[Paper](https://arxiv.org/pdf/1903.06646.pdf)/ No Demo / No Video
    <p align="center">
