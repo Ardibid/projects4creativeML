@@ -50,20 +50,11 @@ The rest of this post will include: </br>
    
    1. **VNect**:Real-time 3D Human Pose Estimation with a Single RGB Camera [12] <br>
       They present the first real-time method to capture the full global 3D skeletal pose of a human in a stable, temporally consistent manner using a single RGB camera.</br>
-      Code (available upon request)/[Data](http://gvv.mpi-inf.mpg.de/3dhp-dataset/)/[Paper](http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf)/[Video](https://youtu.be/7B7-IzqL9UI)
-   <p align="center">
-      <img src="/assets/Images/VNect.png" width="600" align="center">
-   </p>
+      Code (available upon request)/[Data](http://gvv.mpi-inf.mpg.de/3dhp-dataset/)/[Paper](http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf)/[Video](https://youtu.be/7B7-IzqL9UI)</br> <img src="/assets/Images/VNect.png" width="600">
    2. **Adversarial PoseNet**: A Structure-aware Convolutional Network for Human Pose Estimation</br>
-   No Code / No Data /[Paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Adversarial_PoseNet_A_ICCV_2017_paper.pdf)/ No Demo / No Video
-   <p align="center">
-      <img src="/assets/Images/AdversarialPoseNet.png" width="600" align="center">
-   </p>
+   No Code / No Data /[Paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Adversarial_PoseNet_A_ICCV_2017_paper.pdf)/ No Demo / No Video </br><img src="/assets/Images/AdversarialPoseNet.png" width="600">
    3. **Adversarial Joint Image and Pose Distribution Learning for Camera Pose Regression and Refinement**
-   No Code / No Data /[Paper](https://arxiv.org/pdf/1903.06646.pdf)/ No Demo / No Video
-   <p align="center">
-      <img src="/assets/Images/AdversarialJointImagePose.png" width="600" align="center">
-   </p>   
+   No Code / No Data /[Paper](https://arxiv.org/pdf/1903.06646.pdf)/ No Demo / No Video </br><img src="/assets/Images/AdversarialJointImagePose.png" width="600">
    
 [0]: /assets/papers/
 [1]: /assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf
