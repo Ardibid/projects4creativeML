@@ -35,15 +35,13 @@ The rest of this post will include: </br>
    <p align="center">
       <img src="/assets/Images/Pose%20LSTM.png" width="600" align="center">
    </p>
-   
    3. Relative Camera Pose Estimation Using Convolutional Neural Networks [3]
    This paper presents a convolutional neural network based approach for estimating the relative pose between two cameras. The proposed network takes RGB images from both cameras as input and directly produces the relative rotation and translation as output. The system is trained in an end-to-end manner utilising transfer learning from a large scale classification dataset. The introduced approach is compared with widely used local feature based methods (SURF, ORB) and the results indicate a clear improvement over the baseline. In addition, a variant of the proposed architecture containing a spatial pyramid pooling (SPP) layer is evaluated and shown to further improve the performance.</br>
    No Code / No Data /[Paper](https://link.springer.com/content/pdf/10.1007%2F978-3-319-70353-4_57.pdf)/ No Demo / No Video
    <p align="center">
       <img src="/assets/Images/Relative%20Camera%20Pose%20Estimation.png" width="600" align="center">
    </p>
-   
-   4.**RelocNet** Continuous Metric Learning Relocalisation using Neural Nets
+   4. **RelocNet** Continuous Metric Learning Relocalisation using Neural Nets
    They propose a method of learning suitable convolutional representations for camera pose retrieval based on nearest neighbour matching and continuous metric learning-based feature descriptors. It compares pair of images from the camera.
    It require parameters forom the  camera that being used.</br>
    [Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf)/ [Data](http://relocnet.avlcode.org/dataset.html) / [Presnetation](http://relocnet.avlcode.org/docs/Balntas_2018_ECCV_presentation.pdf)/[Website](http://relocnet.avlcode.org/)
