@@ -33,7 +33,7 @@ The rest of this post will include: </br>
    [Data](https://github.com/NavVisResearch/NavVis-Indoor-Dataset/)/[Paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Walch_Image-Based_Localization_Using_ICCV_2017_paper.pdf)/Code not available
    ![LSTM](/assets/Images/Pose%20LSTM.png "PoseNet") </br>
    
-   3.Relative Camera Pose Estimation Using Convolutional Neural Networks [3]
+   3. Relative Camera Pose Estimation Using Convolutional Neural Networks [3]
    This paper presents a convolutional neural network based approach for estimating the relative pose between two cameras. The proposed network takes RGB images from both cameras as input and directly produces the relative rotation and translation as output. The system is trained in an end-to-end manner utilising transfer learning from a large scale classification dataset. The introduced approach is compared with widely used local feature based methods (SURF, ORB) and the results indicate a clear improvement over the baseline. In addition, a variant of the proposed architecture containing a spatial pyramid pooling (SPP) layer is evaluated and shown to further improve the performance.</br>
    No Code / No Data /[Paper](https://link.springer.com/content/pdf/10.1007%2F978-3-319-70353-4_57.pdf)/ No Demo / No Video
    ![Relative Camera Pose](/assets/Images/Relative%20Camera%20Pose%20Estimation.png) </br>
