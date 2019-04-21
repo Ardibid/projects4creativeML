@@ -28,7 +28,11 @@ The rest of this post will include: </br>
    In this work we propose a new CNN+LSTM architecture for camera pose regression for indoor and outdoor scenes. CNNs allow us to learn suitable feature representations for localization that are robust against motion blur and illumination changes. We make use of LSTM units on the CNN output, which play the role of a structured dimensionality reduction on the feature vector, leading to drastic improvements in localization performance. We provide extensive quantitative comparison of CNN-based and SIFT-based localization methods, showing the weaknesses and strengths of each. Furthermore, we present a new large-scale indoor dataset with accurate ground truth from a laser scanner. Experimental results on both indoor and outdoor public datasets show our method outperforms existing deep architectures, and can localize images in hard conditions, e.g., in the presence of mostly textureless surfaces, where classic SIFT-based methods fail.
    [Data](https://github.com/NavVisResearch/NavVis-Indoor-Dataset/)/[Paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Walch_Image-Based_Localization_Using_ICCV_2017_paper.pdf)/Code not available
    ![LSTM](/assets/Images/Pose%20LSTM.png "PoseNet")
+   3.Relative Camera Pose Estimation Using Convolutional Neural Networks [3]
+   This paper presents a convolutional neural network based approach for estimating the relative pose between two cameras. The proposed network takes RGB images from both cameras as input and directly produces the relative rotation and translation as output. The system is trained in an end-to-end manner utilising transfer learning from a large scale classification dataset. The introduced approach is compared with widely used local feature based methods (SURF, ORB) and the results indicate a clear improvement over the baseline. In addition, a variant of the proposed architecture containing a spatial pyramid pooling (SPP) layer is evaluated and shown to further improve the performance.
+   No Code / No Data /[Paper](https://link.springer.com/content/pdf/10.1007%2F978-3-319-70353-4_57.pdf)/ No Demo / No Video
    
+ 
 
 ### Body Pose Estimation:
    1. **VNect**:Real-time 3D Human Pose Estimation with a Single RGB Camera [12] <br>
@@ -45,6 +49,6 @@ The rest of this post will include: </br>
    
 
 [1]: /assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf
-[2]: /assets/papers/
-[3]: /assets/papers/
+[2]: /assets/papers/Adversarial%20PoseNet-%20A%20Structure-aware%20Convolutional%20Network%20for%20Human%20Pose%20Estimation.pdf
+[3]: /assets/papers/Relative%20Camera%20Pose%20Estimation%20Using%20Convolutional%20Neural%20Networks.pdf
 [12]: /assets/papers/VNect-%20Real-time%203D%20Human%20Pose%20Estimation%20with%20a%20Single%20RGB%20Camera.pdf
