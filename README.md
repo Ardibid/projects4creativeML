@@ -3,22 +3,60 @@
 
 ---
 
-<h4 id="general-list">General List</h4>
 <p>A short review of the papers/projects/repos that can be helpful in creative ML</p>
 <h2 id="intro">Intro:</h2>
 <p>For the final projects, I am aiming for two main categories: </p>
 <ol>
-<li>Camera Pose Estimation from a Single RGB Image  </li>
-<li>Human Pose Estimation from a Single RGB Image  </li>
-</ol>
-<p>In each category, I introduce multiple cases that can be used as a part of the proposed framework. </p>
-<p>The rest of this post will include:</p>
-<ol>
-<li><a href="/README.md#Camera-Pose-Estimation">Camera Pose Estimation</a></li>
-<li><a href="/README.md#question-samples">Question Samples</a></li>
+<li><a href="/README.md#Camera-Pose-Estimation">Camera Pose Estimation from a Single or Series of RGB Image</a></li>
+<li><a href="/README.md#question-samples">Human Pose Estimation from a Single or Series of RGB Image</a><br>
+In each category, I introduce multiple cases that can be used as a part of the proposed framework. </li>
 </ol>
 <hr>
-<p><a href="">Code</a>/<a href="">Data</a>/<a href="">Paper</a>/<a href="">Demo</a>/<a href="">Video</a></p>
+<p>For each paper, these items are checked:<br>
+<a href="">Code</a>/<a href="">Data</a>/<a href="">Paper</a>/<a href="">Demo</a>/<a href="">Video</a></p>
+<h1 id="short-list">Short List:</h1>
+<ol>
+<li>
+<p><strong>PoseNet</strong>: A Convolutional Network for Real-Time 6-DOF Camera Relocalization [<a href="/assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf">1</a>]<br>
+<a href="https://github.com/alexgkendall/caffe-posenet">Code</a> <a href="https://github.com/kentsommer/tensorflow-posenet">TF implementation</a>/<a href="http://mi.eng.cam.ac.uk/~agk34/resources/PoseNet.zip">Trained Model</a> / Data (not available)/ <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf">Paper</a>/<a href="http://mi.eng.cam.ac.uk/projects/relocalisation/">Demo</a><br></p>
+</li>
+<li>
+<p>Image-based localization using LSTMs for structured feature correlation [<a href="/assets/papers/Adversarial%20PoseNet-%20A%20Structure-aware%20Convolutional%20Network%20for%20Human%20Pose%20Estimation.pdf">2</a>]<br>
+<a href="https://github.com/NavVisResearch/NavVis-Indoor-Dataset/">Data</a>/<a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Walch_Image-Based_Localization_Using_ICCV_2017_paper.pdf">Paper</a>/Code not available <br></p>
+</li>
+<li>
+<p>Relative Camera Pose Estimation Using Convolutional Neural Networks [<a href="/assets/papers/Relative%20Camera%20Pose%20Estimation%20Using%20Convolutional%20Neural%20Networks.pdf">3</a>]<br>
+<a href="https://github.com/AaltoVision/relativeCameraPose">Code by imelekhov (Torch)</a> / No Data /<a href="https://link.springer.com/content/pdf/10.1007%2F978-3-319-70353-4_57.pdf">Paper</a>/ No Demo / No Video <br></p>
+</li>
+<li>
+<p><strong>RelocNet</strong>: Continuous Metric Learning Relocalisation using Neural Nets<br>
+<a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf">Paper</a>/ <a href="http://relocnet.avlcode.org/dataset.html">Data</a> / <a href="http://relocnet.avlcode.org/docs/Balntas_2018_ECCV_presentation.pdf">Presnetation</a>/<a href="http://relocnet.avlcode.org/">Website</a></p>
+</li>
+<li>
+<p>Camera Relocalization by Computing Pairwise Relative Poses Using Convolutional Neural Network<br>
+<a href="http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w17/Laskar_Camera_Relocalization_by_ICCV_2017_paper.pdf">Paper</a> / <a href="https://github.com/AaltoVision/camera-relocalisation">Code by imelekhov (Torch, MATLAB)</a>/Dataset available (~30 Gig)</p>
+</li>
+<li>
+<p>Video-rate Localization in Multiple Maps for Wearable Augmented Reality </p>
+</li>
+<li>
+<p><strong>VidLoc</strong>: A Deep Spatio-Temporal Model for 6-DoF Video-Clip Relocalization<br>
+<a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Clark_VidLoc_A_Deep_CVPR_2017_paper.pdf">Paper</a> / <a href="https://github.com/futurely/deep-camera-relocalization">Code with trained model</a></p>
+</li>
+</ol>
+<hr>
+<ol>
+<li><strong>VNect</strong>:Real-time 3D Human Pose Estimation with a Single RGB Camera <a href="/assets/papers/VNect-%20Real-time%203D%20Human%20Pose%20Estimation%20with%20a%20Single%20RGB%20Camera.pdf">12</a><br>
+Code (available upon request)/<a href="http://gvv.mpi-inf.mpg.de/3dhp-dataset/">Data</a>/<a href="http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf">Paper</a>/<a href="https://youtu.be/7B7-IzqL9UI">Video</a></li>
+<li><strong>Adversarial PoseNet</strong>: A Structure-aware Convolutional Network for Human Pose Estimation<br>
+No Code / No Data /<a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Adversarial_PoseNet_A_ICCV_2017_paper.pdf">Paper</a>/ No Demo / No Video</li>
+<li>Adversarial Joint Image and Pose Distribution Learning for Camera Pose Regression and Refinement<br>
+No Code / No Data /<a href="https://arxiv.org/pdf/1903.06646.pdf">Paper</a>/ No Demo / No Video </li>
+<li>3D Human Pose Estimation in the Wild by Adversarial Learning<br>
+<a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_3D_Human_Pose_CVPR_2018_paper.pdf">Paper</a>/ <a href="https://github.com/xingyizhou/pose-hg-3d">Code (Torch)</a></li>
+<li><strong>OpenPose</strong></li>
+</ol>
+<h1 id="long-list">Long List</h1>
 <h2 id="camera-pose-estimation">Camera Pose Estimation:</h2>
 <ol start="0">
 <li>
@@ -28,7 +66,7 @@ A comprehensive review of the concepts in Absolute Camera Pose (ACP) and Relativ
 <a href="https://arxiv.org/pdf/1903.07504.pdf">Paper</a></p>
 </li>
 <li>
-<p><strong>PoseNet</strong>: A Convolutional Network for Real-Time 6-DOF Camera Relocalization <a href="/assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf">1</a><br>
+<p><strong>PoseNet</strong>: A Convolutional Network for Real-Time 6-DOF Camera Relocalization [<a href="/assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf">1</a>]<br>
 They present a robust and real-time monocular six degree of freedom relocalization system. Our system trains a convolutional neural network to regress the 6-DOF camera pose from a single RGB image in an end-to-end manner with no need of additional engineering or graph optimisation. The algorithm can operate indoors and outdoors in real time, taking 5ms per frame to compute. It obtains approximately 2m and 3 degrees accuracy for large scale outdoor scenes and 0.5m and 5 degrees accuracy indoors. This is achieved using an efficient 23-layer deep convnet, demonstrating that convnets can be used to solve complicated out of image plane regression problems. This was made possible by leveraging transfer learning from large scale classification data. We show that the PoseNet localizes from high level features and is robust to difficult lighting, motion blur and different camera intrinsic where point based SIFT registration fails. Furthermore, we show how the pose feature that is produced generalizes to other scenes allowing us to regress pose with only a few dozen training examples.<br>
 <a href="https://github.com/alexgkendall/caffe-posenet">Code</a> <a href="https://github.com/kentsommer/tensorflow-posenet">TF implementation</a>/<a href="http://mi.eng.cam.ac.uk/~agk34/resources/PoseNet.zip">Trained Model</a> / Data (not available)/ <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf">Paper</a>/<a href="http://mi.eng.cam.ac.uk/projects/relocalisation/">Demo</a><br><br>
 <img src="https://github.com/Ardibid/projects4creativeML/blob/master/assets/Images/PoseNet.png?raw=true" width="500"></p>
