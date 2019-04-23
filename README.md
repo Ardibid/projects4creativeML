@@ -9,7 +9,6 @@
 <ol>
 <li><a href="/README.md#Camera-Pose-Estimation">Camera Pose Estimation from a Single or Series of RGB Image</a></li>
 <li>[Human Pose Estimation from a Single or Series of RGB Image](/README.md#Human-User Pose-Estimation)</li>
-<li><a href="/README.md#Robotic-Motion">Robotic motion</a></li>
 <li><a href="/README.md#Painting">Painting</a></li>
 </ol>
 <p>In each category, I introduce multiple cases that can be used as a part of the proposed framework. </p>
@@ -18,38 +17,40 @@
 <a href="">Code</a>/<a href="">Data</a>/<a href="">Paper</a>/<a href="">Demo</a>/<a href="">Video</a></p>
 <h1 id="short-list">Short List:</h1>
 <h3 id="camera-pose-estimation">Camera Pose Estimation:</h3>
-<ol>
+<ul>
 <li>
-<p><strong>PoseNet</strong>: A Convolutional Network for Real-Time 6-DOF Camera Relocalization [<a href="/assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf">1</a>]<br>
-<a href="https://github.com/alexgkendall/caffe-posenet">Code</a> <a href="https://github.com/kentsommer/tensorflow-posenet">TF implementation</a>/<a href="http://mi.eng.cam.ac.uk/~agk34/resources/PoseNet.zip">Trained Model</a> / Data (not available)/ <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf">Paper</a>/<a href="http://mi.eng.cam.ac.uk/projects/relocalisation/">Demo</a><br></p>
+<p>A comprehensive list <a href="https://github.com/TerenceCYJ/VP-SLAM-SC-papers">Gihub repo</a></p>
 </li>
 <li>
-<p>Image-based localization using LSTMs for structured feature correlation [<a href="/assets/papers/Adversarial%20PoseNet-%20A%20Structure-aware%20Convolutional%20Network%20for%20Human%20Pose%20Estimation.pdf">2</a>]<br>
+<p><strong>PoseNet</strong>: A Convolutional Network for Real-Time 6-DOF Camera Relocalization (2015) [<a href="/assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf">1</a>]<br>
+<a href="https://github.com/alexgkendall/caffe-posenet">Code</a> / <a href="https://github.com/kentsommer/tensorflow-posenet">TF implementation</a> / <a href="http://mi.eng.cam.ac.uk/~agk34/resources/PoseNet.zip">Trained Model</a> / Data (not available)/ <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Kendall_PoseNet_A_Convolutional_ICCV_2015_paper.pdf">Paper</a>/<a href="http://mi.eng.cam.ac.uk/projects/relocalisation/">Demo</a><br></p>
+</li>
+<li>
+<p>Image-based localization using LSTMs for structured feature correlation (2017) [<a href="/assets/papers/Adversarial%20PoseNet-%20A%20Structure-aware%20Convolutional%20Network%20for%20Human%20Pose%20Estimation.pdf">2</a>]<br>
 <a href="https://github.com/NavVisResearch/NavVis-Indoor-Dataset/">Data</a>/<a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Walch_Image-Based_Localization_Using_ICCV_2017_paper.pdf">Paper</a>/Code not available <br></p>
 </li>
 <li>
-<p>Relative Camera Pose Estimation Using Convolutional Neural Networks [<a href="/assets/papers/Relative%20Camera%20Pose%20Estimation%20Using%20Convolutional%20Neural%20Networks.pdf">3</a>]<br>
-<a href="https://github.com/AaltoVision/relativeCameraPose">Code by imelekhov (Torch)</a> / No Data /<a href="https://link.springer.com/content/pdf/10.1007%2F978-3-319-70353-4_57.pdf">Paper</a>/ No Demo / No Video <br></p>
+<p>Relative Camera Pose Estimation Using Convolutional Neural Networks (2017) [<a href="/assets/papers/Relative%20Camera%20Pose%20Estimation%20Using%20Convolutional%20Neural%20Networks.pdf">3</a>]<br>
+<a href="https://github.com/AaltoVision/relativeCameraPose">Code (Torch)</a> / No Data /<a href="https://link.springer.com/content/pdf/10.1007%2F978-3-319-70353-4_57.pdf">Paper</a>/ No Demo / No Video <br></p>
 </li>
 <li>
-<p><strong>RelocNet</strong>: Continuous Metric Learning Relocalisation using Neural Nets<br>
+<p><strong>RelocNet</strong>: Continuous Metric Learning Relocalisation using Neural Nets (2018)<br>
 <a href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf">Paper</a>/ <a href="http://relocnet.avlcode.org/dataset.html">Data</a> / <a href="http://relocnet.avlcode.org/docs/Balntas_2018_ECCV_presentation.pdf">Presnetation</a>/<a href="http://relocnet.avlcode.org/">Website</a></p>
 </li>
 <li>
-<p>Camera Relocalization by Computing Pairwise Relative Poses Using Convolutional Neural Network<br>
+<p>Camera Relocalization by Computing Pairwise Relative Poses Using Convolutional Neural Network (2017)<br>
 <a href="http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w17/Laskar_Camera_Relocalization_by_ICCV_2017_paper.pdf">Paper</a> / <a href="https://github.com/AaltoVision/camera-relocalisation">Code by imelekhov (Torch, MATLAB)</a>/Dataset available (~30 Gig)</p>
 </li>
 <li>
-<p>Video-rate Localization in Multiple Maps for Wearable Augmented Reality </p>
-</li>
-<li>
-<p><strong>VidLoc</strong>: A Deep Spatio-Temporal Model for 6-DoF Video-Clip Relocalization<br>
+<p><strong>VidLoc</strong>: A Deep Spatio-Temporal Model for 6-DoF Video-Clip Relocalization (2017)<br>
 <a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Clark_VidLoc_A_Deep_CVPR_2017_paper.pdf">Paper</a> / <a href="https://github.com/futurely/deep-camera-relocalization">Code with trained model</a></p>
 </li>
-</ol>
+</ul>
 <hr>
-<h3 id="human-user-pose-estimation">Human User Pose Estimation</h3>
-<ol>
+<h3 id="human-user-pose">Human User Pose</h3>
+<h4 id="estimation">Estimation</h4>
+<ul>
+<li>A comprehensive list of projects <a href="https://github.com/horefice/Human-Pose-Estimation-from-RGB">[Github repo]</a></li>
 <li><strong>VNect</strong>:Real-time 3D Human Pose Estimation with a Single RGB Camera <a href="/assets/papers/VNect-%20Real-time%203D%20Human%20Pose%20Estimation%20with%20a%20Single%20RGB%20Camera.pdf">12</a><br>
 Code (available upon request)/<a href="http://gvv.mpi-inf.mpg.de/3dhp-dataset/">Data</a>/<a href="http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf">Paper</a>/<a href="https://youtu.be/7B7-IzqL9UI">Video</a></li>
 <li><strong>Adversarial PoseNet</strong>: A Structure-aware Convolutional Network for Human Pose Estimation<br>
@@ -59,7 +60,57 @@ No Code / No Data /<a href="https://arxiv.org/pdf/1903.06646.pdf">Paper</a>/ No 
 <li>3D Human Pose Estimation in the Wild by Adversarial Learning<br>
 <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_3D_Human_Pose_CVPR_2018_paper.pdf">Paper</a>/ <a href="https://github.com/xingyizhou/pose-hg-3d">Code (Torch)</a></li>
 <li><strong>OpenPose</strong></li>
-</ol>
+<li>Learning 3D Human Dynamics from Video (2019)<br>
+[Code coming soon]/[No Data]/<a href="https://arxiv.org/pdf/1812.01601.pdf">Paper</a>/<a href="https://akanazawa.github.io/human_dynamics/">Page</a>/<a href="https://youtu.be/9fNKSZdsAG8">Video</a></li>
+<li>Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields (2017)<br>
+<a href="https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation">Code</a>/[No Data]/</li>
+</ul>
+<h4 id="motion-design">Motion Design</h4>
+<ul>
+<li><strong>Pose2Pose</strong>: Everybody Dance Now<br>
+<a href="https://arxiv.org/pdf/1808.07371.pdf">Paper</a>/<a href="https://github.com/llSourcell/Everybody_Dance_Now">Code Tf and PyOpenPose</a> / Data and Trained Model are Available</li>
+<li>Dance x Machine Learning (2018)<br>
+<a href="https://medium.com/@kcimc/discrete-figures-7d9e9c275c47">Medium post</a>/<a href="https://research.rhizomatiks.com/s/works/discrete_figures/en/technology.html">Project web page</a></li>
+<li><strong>Chor-rnn</strong>: Generative Choreography using Deep Learning (2016)<br>
+<a href="https://arxiv.org/pdf/1605.06921.pdf">Paper</a>/<a href="https://www.youtube.com/watch?v=W1oRgDPxEkc">Video</a>/ No code<br>
+-<strong>Dance2Dance</strong> (2018) (based on Seq2Seq)<br>
+<a href="https://github.com/pkmital/dance2dance">Code</a>/No data</li>
+<li>Phase-Functioned Neural Networks for Character Control (2017)<br>
+<a href="http://theorangeduck.com/page/phase-functioned-neural-networks-character-control">Page</a>/<a href="http://theorangeduck.com/media/uploads/other_stuff/phasefunction.pdf">Paper</a>/<a href="http://theorangeduck.com/media/uploads/other_stuff/pfnn.zip">Code &amp; Data</a>/<a href="http://theorangeduck.com/media/uploads/other_stuff/pfnn_slides.pdf">Slides</a><br>
+There are 4 papers by this author including one with Convolutional AE</li>
+</ul>
+<hr>
+<h3 id="painting">Painting:</h3>
+<ul>
+<li>
+<p><strong>Neural Painters</strong>: A learned differentiable constraint for generating brushstroke paintings <a href="https://arxiv.org/pdf/1904.08410.pdf">paper</a> / <a href="https://github.com/reiinakano/neural-painters">Github</a> / <a href="https://github.com/Ardibid/robotArtProjects/blob/master/files/1507940147251-drlcss%20(1).mp4">video demo</a></p>
+</li>
+<li>
+<p><strong>Brush Stroke Synthesis</strong> with a Generative Adversarial Network Driven by Physically Based Simulation<br>
+<a href="https://github.com/Ardibid/robotArtProjects/blob/master/files/Brush%20Stroke%20Synthesis.pdf">Paper</a> / <a href="https://reiinakano.github.io/">Github</a></p>
+</li>
+<li>
+<p>Learning to Paint with Modal-based Deep Reinforced Learning<br>
+<a href="https://arxiv.org/pdf/1903.04411.pdf">Paper</a>/ <a href="https://github.com/hzwer/LearningToPaint">Code PyTorch</a></p>
+</li>
+<li>
+<p>A Neural Representation of Sketch Drawings<br>
+<a href="https://arxiv.org/pdf/1704.03477.pdf">Paper</a> / [Code] (<a href="https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn">https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn</a>)</p>
+</li>
+<li>
+<p>Learning to Doodle with Deep Q-Networks and Demonstrated Strokes<br>
+<a href="%5Bhttps://arxiv.org/pdf/1810.05977.pdf%5D(https://arxiv.org/pdf/1810.05977.pdf)">Paper</a>/<a href="https://www.youtube.com/watch?v=-5FVUQFQTaE">Video</a></p>
+</li>
+<li>
+<p>StrokeNet: A Neural Painting Environment<br>
+<a href="https://openreview.net/pdf?id=HJxwDiActX">Paper</a> /</p>
+</li>
+</ul>
+<hr>
+<h3 id="others">Others:</h3>
+<ul>
+<li><strong>GAN Lab</strong>: Understanding Complex Deep Generative Models using Interactive Visual Experimentation <a href="https://github.com/poloclub/ganlab">Code TF.js</a>/<a href="https://poloclub.github.io/ganlab/">Demo</a>/<a href="https://youtu.be/eTq9T_sPTYQ">Video</a>/</li>
+</ul>
 <h1 id="long-list">Long List</h1>
 <h2 id="camera-pose-estimation-1">Camera Pose Estimation:</h2>
 <ol start="0">
