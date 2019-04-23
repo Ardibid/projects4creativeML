@@ -8,13 +8,16 @@
 <p>For the final projects, I am aiming for two main categories: </p>
 <ol>
 <li><a href="/README.md#Camera-Pose-Estimation">Camera Pose Estimation from a Single or Series of RGB Image</a></li>
-<li><a href="/README.md#question-samples">Human Pose Estimation from a Single or Series of RGB Image</a><br>
-In each category, I introduce multiple cases that can be used as a part of the proposed framework. </li>
+<li><a href="/README.md#question-samples">Human Pose Estimation from a Single or Series of RGB Image</a></li>
+<li>Robotic motion</li>
+<li>Painting</li>
 </ol>
+<p>In each category, I introduce multiple cases that can be used as a part of the proposed framework. </p>
 <hr>
 <p>For each paper, these items are checked:<br>
 <a href="">Code</a>/<a href="">Data</a>/<a href="">Paper</a>/<a href="">Demo</a>/<a href="">Video</a></p>
 <h1 id="short-list">Short List:</h1>
+<h3 id="camera-pose-estimation">Camera Pose Estimation:</h3>
 <ol>
 <li>
 <p><strong>PoseNet</strong>: A Convolutional Network for Real-Time 6-DOF Camera Relocalization [<a href="/assets/papers/PoseNet-%20A%20Convolutional%20Network%20for%20Real-Time%206-DOF%20Camera%20Relocalization.pdf">1</a>]<br>
@@ -57,7 +60,7 @@ No Code / No Data /<a href="https://arxiv.org/pdf/1903.06646.pdf">Paper</a>/ No 
 <li><strong>OpenPose</strong></li>
 </ol>
 <h1 id="long-list">Long List</h1>
-<h2 id="camera-pose-estimation">Camera Pose Estimation:</h2>
+<h2 id="camera-pose-estimation-1">Camera Pose Estimation:</h2>
 <ol start="0">
 <li>
 <p>Understanding the Limitations of CNN-based Absolute Camera Pose Regression [<a href="/assets/papers/">0</a>]<br>
