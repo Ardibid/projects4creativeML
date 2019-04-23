@@ -8,9 +8,9 @@
 <p>For the final projects, I am aiming for two main categories: </p>
 <ol>
 <li><a href="/README.md#Camera-Pose-Estimation">Camera Pose Estimation from a Single or Series of RGB Image</a></li>
-<li><a href="/README.md#question-samples">Human Pose Estimation from a Single or Series of RGB Image</a></li>
-<li>Robotic motion</li>
-<li>Painting</li>
+<li>[Human Pose Estimation from a Single or Series of RGB Image](/README.md#Human-User Pose-Estimation)</li>
+<li><a href="/README.md#Robotic-Motion">Robotic motion</a></li>
+<li><a href="/README.md#Painting">Painting</a></li>
 </ol>
 <p>In each category, I introduce multiple cases that can be used as a part of the proposed framework. </p>
 <hr>
@@ -48,6 +48,7 @@
 </li>
 </ol>
 <hr>
+<h3 id="human-user-pose-estimation">Human User Pose Estimation</h3>
 <ol>
 <li><strong>VNect</strong>:Real-time 3D Human Pose Estimation with a Single RGB Camera <a href="/assets/papers/VNect-%20Real-time%203D%20Human%20Pose%20Estimation%20with%20a%20Single%20RGB%20Camera.pdf">12</a><br>
 Code (available upon request)/<a href="http://gvv.mpi-inf.mpg.de/3dhp-dataset/">Data</a>/<a href="http://gvv.mpi-inf.mpg.de/projects/VNect/content/VNect_SIGGRAPH2017.pdf">Paper</a>/<a href="https://youtu.be/7B7-IzqL9UI">Video</a></li>
