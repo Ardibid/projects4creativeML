@@ -7,7 +7,7 @@
 <h2 id="intro">Intro:</h2>
 <p>For the final projects, I am aiming for two main categories: </p>
 <ol>
-<li><a href="/README.md#Camera-Pose-Estimation">Camera Pose Estimation from a Single or Series of RGB Image</a></li>
+<li><a href="/README.md###Camera-Pose-Estimation">Camera Pose Estimation from a Single or Series of RGB Image</a></li>
 <li>[Human Pose Estimation from a Single or Series of RGB Image](/README.md#Human-User Pose-Estimation)</li>
 <li><a href="/README.md#Robotic-Motion">Robotic motion</a></li>
 <li><a href="/README.md#Painting">Painting</a></li>
